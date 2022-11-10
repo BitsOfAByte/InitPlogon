@@ -1,0 +1,1 @@
+InitPlogon is an opinioned quick-start for new plugins using the Dalamud Plugin Framework.
