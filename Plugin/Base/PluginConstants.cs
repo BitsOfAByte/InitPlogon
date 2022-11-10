@@ -9,7 +9,6 @@ namespace Plugin.Base
         ///    This is the name that will be shown in all UI elements, does not change InternalName.
         /// </summary>
         internal static readonly string PluginName = "InitPlogon";
-        internal static readonly string RepoBranch = "main";
 
         /// <summary>
         ///     The path to the plugin's resources folder with trailing slashes, relative to the plugin assembly location with trailing slashes.
