@@ -8,13 +8,13 @@ namespace Plugin.Localization
     /// </summary>
     internal sealed class TCommandHelp
     {
-        public static readonly string ExampleHelp = Loc.Localize("ExampleHelp", "This is an example help string.");
+        public static string ExampleHelp => Loc.Localize("ExampleHelp", "This is an example help string.");
     }
     /// <summary>
     ///     A collection of translatable window strings.
     /// </summary>
     internal sealed class TWindowNames
     {
-        public static readonly string Settings = string.Format(Loc.Localize("Window.Settings", "{0} - Settings"), PluginConstants.PluginName);
+        public static string Settings => string.Format(Loc.Localize("Window.Settings", "{0} - Settings"), PluginConstants.PluginName);
     }
 }
