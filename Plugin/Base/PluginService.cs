@@ -36,11 +36,6 @@ namespace Plugin.Base
             CommandManager = new CommandManager();
             IPC = new IPCLoader();
 
-#if !DEBUG
-            ResourceManager.Update();
-            Configuration.RemoveInvalidEnumValues();
-#endif
-
             PluginLog.Debug("PluginService(Initialize): Successfully initialized plugin services.");
         }
 
